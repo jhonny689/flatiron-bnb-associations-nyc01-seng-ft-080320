@@ -15,7 +15,7 @@ describe Listing do
       neighborhood: financial_district,
       host: amanda
     )
-  end
+  end 
 
   it 'has a title' do
     expect(listing.title).to eq("Beautiful Apartment on Main Street")

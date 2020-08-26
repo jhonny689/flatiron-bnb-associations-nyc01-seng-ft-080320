@@ -10,7 +10,7 @@ describe Neighborhood do
 
   it 'belongs to a city' do
     expect(brighton_beach.city).to be(nyc)
-  end
+  end 
 
   context "listings" do
     let(:user) { User.create(name: "Arel") }
